@@ -1,0 +1,67 @@
+.upper {
+  width: 100%;
+  min-height: 100vh;
+  background: url(kakashi.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+nav {
+  font-size: 1em;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 100px;
+  padding-left: 25px;
+}
+.light:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 5px #ac1e1ec9, 0 0 25px #ac1e1ec9, 0 0 50px #ac1e1ec9,
+    0 0 100px #ac1e1ec9;
+  padding: 5px 15%;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #962323;
+  font-weight: 400;
+}
+.login {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ac1e1ec9;
+  margin-right: 15px;
+  padding: 14px 40px;
+  font-weight: 500;
+  background-image: linear-gradient(45deg, #b3babd, #040505);
+  font-size: 1.3em;
+  border-radius: 35px;
+}
+.content {
+  margin: 5%;
+  max-width: 600px;
+}
+.content h1 {
+  font-size: 50px;
+  color: #b3babd;
+}
+.content p {
+  color: #962323;
+  margin: 10px 0 25px;
+  font-family: serif;
+}
+
+.login:hover {
+  box-shadow: 0 0 5px #ac1e1ec9, 0 0 25px #ac1e1ec9, 0 0 50px #ac1e1ec9,
+    0 0 100px #ac1e1ec9;
+}
